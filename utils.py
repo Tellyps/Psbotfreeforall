@@ -396,12 +396,13 @@ async def get_shortlink(link):
                 if data["status"] == "success":
                     return data['shortlink']
                 else:
-                    logger.error(f"Error: {data['message']}")
-                    return f'https://api.tnlink.in/directLink?token={URL_SHORTNER_WEBSITE_API}&link={link}'
+                    logger.error(f"Error: {data['https://api.tnlink.in/directLink?token={URL_SHORTNER_WEBSITE_API}&link={link}'
+message']}")
+                    return f'https://tnlink.in/member/tools/api?token={URL_SHORTNER_WEBSITE_API}&link={link}'
 
     except Exception as e:
         logger.error(e)
-        return f'https://api.tnlink.in/directLink?token={URL_SHORTNER_WEBSITE_API}&link={link}'
+        return f'https://tnlink.in/member/tools/api?token={URL_SHORTNER_WEBSITE_API}&link={link}'
 # _______________________________________________________________________________________________________________ #
 # __________________________________________Credit_______________________________________________________________ #
 # _______________________________________LazyDeveloper___________________________________________________________ #
