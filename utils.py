@@ -397,11 +397,11 @@ async def get_shortlink(link):
                     return data['shortlink']
                 else:
                     logger.error(f"Error: {data['message']}")
-                    return f'https://api.tnlink.in/directLink?token={URL_SHORTNER_WEBSITE_API}&link={link}'
+                    return f'https://api.tnlink.in/directLink?eb9d0a574afc54811f5abaa1d347711d11432358={URL_SHORTNER_WEBSITE_API}&link={link}'
 
     except Exception as e:
         logger.error(e)
-        return f'https://api.tnlink.in/directLink?token={URL_SHORTNER_WEBSITE_API}&link={link}'
+        return f'https://api.tnlink.in/directLink?eb9d0a574afc54811f5abaa1d347711d11432358={URL_SHORTNER_WEBSITE_API}&link={link}'
 # _______________________________________________________________________________________________________________ #
 # __________________________________________Credit_______________________________________________________________ #
 # _______________________________________LazyDeveloper___________________________________________________________ #
